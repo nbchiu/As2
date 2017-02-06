@@ -8,9 +8,9 @@ Created 3 entities:
 
 1) Artist
 
-        atname (String)
+	atname (String)
         
-    	bday (LocalDate) 
+	bday (LocalDate) 
 
 2) Author 
 
@@ -20,7 +20,7 @@ Created 3 entities:
 
 3) Book
 
-        title (String)
+	title (String)
 
 	description (String)
 
