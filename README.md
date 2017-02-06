@@ -2,7 +2,7 @@
 
 This application was generated using JHipster 3.12.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.12.2](https://jhipster.github.io/documentation-archive/v3.12.2).
 
-## Relationship between entities
+## Entities & Tables
 
 Created 3 entities:
 
@@ -24,7 +24,9 @@ Created 3 entities:
 
 	description (String)
 
-	price (BigDecimal) 
+	price (BigDecimal)
+
+##Relationship between entities 
 
 Added a one-to-many relationship between Artist and Book
 
