@@ -12,15 +12,11 @@ Created 3 entities:
         
     	bday (LocalDate) 
 
-2) Author (just any class)
+2) Author 
 
-        class_num (Integer)
-
-        student_id (Integer)
-
-        class_name (String)
-
-        professor_num (Integer)
+	name (String)
+	
+	birthdate (LocalDate)
 
 3) Book
 
@@ -30,9 +26,13 @@ Created 3 entities:
 
 	price (BigDecimal) 
 
-Added a many-to-many relationship between Student and Class101
+Added a one-to-many relationship between Artist and Book
 
-Added a one-to-many relationship between Professor and Class101
+Added a one-to-many relationship between Author and Book
+
+Added a many-to-one relationship between Book to Author
+
+Added a many-to-one relationship between Book to Artist
 
 ## Development
 
