@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "book",
+            "otherEntityName": "book",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "artist"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "atname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "bday",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20170205061959",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "artist",
+    "pagination": "no"
+}

@@ -2,6 +2,38 @@
 
 This application was generated using JHipster 3.12.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v3.12.2](https://jhipster.github.io/documentation-archive/v3.12.2).
 
+## Relationship between entities
+
+Created 3 entities:
+
+1) Artist
+
+        atname (String)
+        
+    	bday (LocalDate) 
+
+2) Author (just any class)
+
+        class_num (Integer)
+
+        student_id (Integer)
+
+        class_name (String)
+
+        professor_num (Integer)
+
+3) Book
+
+        title (String)
+
+	description (String)
+
+	price (BigDecimal) 
+
+Added a many-to-many relationship between Student and Class101
+
+Added a one-to-many relationship between Professor and Class101
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
