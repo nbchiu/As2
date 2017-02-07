@@ -22,7 +22,7 @@ spring:
         url: jdbc:mysql://cs499-db.czcywbusm3le.us-west-1.rds.amazonaws.com:3306/cs499_db?useUnicode=true&characterEncoding=utf8&useSSL=false
         name: 
         username: nchiu	
-        password: lollypop101
+        password: #password
         hikari:
             data-source-properties:
                 cachePrepStmts: true
